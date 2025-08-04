@@ -79,7 +79,7 @@ Portanto, as variáveis descritas acima serão usadas como **variáveis preditor
 
 ---
 
-## 🔮 Próximos Passos: Análise Multivariada e Modelagem
+## 🔮 Próximos Passos: Modelagem
 
 ### 🛠 O que será feito:
 - Construção de um modelo de **Regressão Linear Múltipla** para verificar o impacto combinado das variáveis no preço.
