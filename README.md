@@ -9,11 +9,15 @@
 - **notebooks/EDA.ipynb**  
   Contém toda a exploração e análise dos dados, com visualizações, testes estatísticos e conclusões parciais.
   
-- **dados/processed/car_price_dataset_clean.csv**  
-  Base de dados tratada, limpa e estruturada, pronta para uso em análise e modelagem.
+- **dados/**  
+  Contém a base de dados utilizada, desde o subdiretório com os dados brutos, até o demais com os dados processados, para EDA e modelagem.
 
 - **environment.yml**  
   Arquivo que define o ambiente Conda com todas as bibliotecas utilizadas, garantindo reprodutibilidade.
+
+- **requirements.txt**  
+  Arquivo alternativo em formato txt para instalação das bibliotecas utilizadas via pip, garantindo reprodutibilidade em diferentes formatos.
+
 
 ---
 
@@ -55,6 +59,9 @@
   - `Transmission`: veículos **automáticos** são significativamente mais caros.
   - `Brand` e `Model` não mostraram associação significativa com o preço → podem ser descartadas do modelo inicial por questão de simplicidade.
 
+### 4. **Análise Multivariada**
+> Aqui buscamos entender como **cada variável se relaciona entre si**, abordando aspectos como análise de multicolinearidade.
+
 ---
 
 ### ✅ **Conclusão até o momento**
@@ -66,7 +73,9 @@ As variáveis **mais relevantes** para explicar o preço dos carros com base na 
 - `Fuel_Type`
 - `Transmission`
 
-Essas serão usadas como **variáveis preditoras iniciais** na construção do modelo de regressão.
+A análise multivariada revelou que não há uma multicolinearidade dentro de um mesmo grupo (numéricas x numéricas | categóricas x categóricas)
+
+Portanto, as variáveis descritas acima serão usadas como **variáveis preditoras iniciais** na construção do modelo de regressão.
 
 ---
 
