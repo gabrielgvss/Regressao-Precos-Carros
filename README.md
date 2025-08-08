@@ -79,11 +79,9 @@ Portanto, as variáveis descritas acima serão usadas como **variáveis preditor
 
 ---
 
-## 🔮 Próximos Passos: Modelagem
+## 🔮 Próximos Passos: Avaliação de Modelo
 
 ### 🛠 O que será feito:
-- Construção de um modelo de **Regressão Linear Múltipla** para verificar o impacto combinado das variáveis no preço.
-- **Codificação de variáveis categóricas** (dummy/one-hot encoding) para uso no modelo.
 - Verificação de **pressupostos estatísticos** da regressão:
   - Linearidade
   - Normalidade dos resíduos
